@@ -1,5 +1,5 @@
-import { SelectedPage } from '@/shared/types';
 import { useMediaQuery } from '@/hooks/useMediaQuery';
+import { SelectedPage } from '@/shared';
 import { motion } from 'framer-motion';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { SocialMediaIcons } from './SocialMediaIcons';

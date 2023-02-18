@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useMediaQuery } from '@/hooks/useMediaQuery';
-import { SelectedPage } from '@/shared/types';
+import { SelectedPage } from '@/shared';
 import { Link } from './Link';
 
 type Props = {
