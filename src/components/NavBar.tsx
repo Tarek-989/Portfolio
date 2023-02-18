@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useMediaQuery } from '@/hooks/useMediaQuery';
+import { useMediaQuery } from '@/hooks';
 import { SelectedPage } from '@/shared';
 import { Link } from './Link';
 

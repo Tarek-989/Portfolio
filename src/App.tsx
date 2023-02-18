@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { DotGroup, Landing, NavBar } from '@/components';
-import { useMediaQuery } from '@/hooks/useMediaQuery';
 import { SelectedPage } from '@/shared/types';
+import { useMediaQuery } from './hooks';
 
 
 
