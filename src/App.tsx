@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import { DotGroup, Landing, NavBar } from '@/components';
-import { SelectedPage } from '@/shared/types';
+import { DotGroup, Landing, MySkills, NavBar } from '@/components';
 import { useMediaQuery } from './hooks';
+import { LineGradient, SelectedPage } from '@/shared';
 
 
 
@@ -37,7 +37,11 @@ function App() {
 						setSelectedPage={setSelectedPage}
 					/>
 				)}
-				<Landing setSelectedPage={setSelectedPage} /> 
+				<Landing setSelectedPage={setSelectedPage} />
+			</div>
+			<LineGradient />
+			<div className='w-5/6 mx-auto md:h-full'>
+				<MySkills />
 			</div>
 		</div>
 	)
