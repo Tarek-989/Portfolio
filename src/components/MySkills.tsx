@@ -20,7 +20,7 @@ export const MySkills = () => {
 					}}
 				>
 					<p className='font-playFair font-semibold text-4xl mb-5'>
-						MY <span className='text-red'>SKILLS</span>
+						MY <span className='text-blue'>SKILLS</span>
 					</p>
 					<LineGradient width='w-1/3' />
 					<p className='mt-10 mb-7'>
@@ -66,7 +66,7 @@ export const MySkills = () => {
 					}}
 				>
 					<p className='font-playFair font-semibold text-4xl mb-5'>
-						MY <span className='text-red'>Experiences</span>
+						MY <span className='text-blue'>Experiences</span>
 					</p>
 					<LineGradient width='w-1/3' />
 				</motion.div>
@@ -75,7 +75,7 @@ export const MySkills = () => {
 
 				{/* Experience 1 */}
 				<motion.div
-					className='md:w-1/3 mt-10'
+					className='md:w-1/3 mt-8'
 					initial='hidden'
 					whileInView='visible'
 					viewport={{ once: true, amount: 0.5 }}
@@ -85,33 +85,33 @@ export const MySkills = () => {
 						visible: { opacity: 1, y: 0 },
 					}}
 				>
-					<div className='relative h-32'>
+					<div className='relative md:h-32 h-24'>
 						<div className='z-10'>
-							<p className='font-playFair font-semibold text-5xl text-red'>01</p>
-							<p className='font-playFair font-semibold text-3xl mt-3 text-slate-300'>
-								Web Developer at Ecomundo
-							</p>
+							<span className='font-playFair font-semibold text-5xl text-red'>01</span>
+							<span className='font-playFair font-semibold text-3xl ml-3 text-slate-300'>
+								Frontend Developer at Ecomundo
+							</span>
 						</div>
 					</div>
-					<p className='mt-5'>
-						<li>
+					<ul className="list-outside list-disc mt-4">
+						<li className='pb-4'>
 							Developing a new version of the Cosmetics Factory application using
 							React.js Library with Micro Frontend architecture.
 						</li>
-						<li>
+						<li className='pb-4'>
 							Maintaining the current version of Cosmetics Factory Application using Sencha ExtJS Framework.
 						</li>
-						<li>
+						<li className='pb-4'>
 							Training and helping junior developers with Sencha ExtJS + React-lib code.
 						</li>
-						<li>
+						<li className='pb-4'>
 							Solving and tracking the tickets assigned by my superiors.
 						</li>
-					</p>
+					</ul>
 				</motion.div>
 				{/* Experience 2 */}
 				<motion.div
-					className='md:w-1/3 mt-10'
+					className='md:w-1/3 mt-8'
 					initial='hidden'
 					whileInView='visible'
 					viewport={{ once: true, amount: 0.5 }}
@@ -121,39 +121,39 @@ export const MySkills = () => {
 						visible: { opacity: 1, y: 0 },
 					}}
 				>
-					<div className='relative h-32'>
+					<div className='relative md:h-32 h-24'>
 						<div className='z-10'>
-							<p className='font-playFair font-semibold text-5xl text-red'>02</p>
-							<p className='font-playFair font-semibold text-3xl mt-3 text-slate-300'>
+							<span className='font-playFair font-semibold text-5xl text-red'>02</span>
+							<span className='font-playFair font-semibold text-3xl ml-3 text-slate-300'>
 								Web Developer at Aya ISP
-							</p>
+							</span>
 						</div>
 					</div>
-					<p className='mt-5'>
-						<li>
+					<ul className="list-outside list-disc mt-4">
+						<li className='pb-4'>
 							Website designing, building, and maintaining.
 						</li>
-						<li>
+						<li className='pb-4'>
 							Conferring with teams to resolve conflicts, prioritize needs and develop
 							content criteria.
 						</li>
-						<li>
+						<li className='pb-4'>
 							Performing AYA ISP website updates.
 						</li>
-						<li>
+						<li className='pb-4'>
 							Developing, and validating test routines and schedules to ensure that test
 							cases mimic external interfaces and address all browser and device
 							types.
 						</li>
-						<li>
+						<li className='pb-4'>
 							Evaluating code to ensure it meets industry standards, is properly
 							structured, and is compatible with all platforms.
 						</li>
-					</p>
+					</ul>
 				</motion.div>
 				{/* Experience 3 */}
 				<motion.div
-					className='md:w-1/3 mt-10'
+					className='md:w-1/3 mt-8'
 					initial='hidden'
 					whileInView='visible'
 					viewport={{ once: true, amount: 0.5 }}
@@ -163,24 +163,24 @@ export const MySkills = () => {
 						visible: { opacity: 1, y: 0 },
 					}}
 				>
-					<div className='relative h-32'>
+					<div className='relative md:h-32 h-24'>
 						<div className='z-10'>
-							<p className='font-playFair font-semibold text-5xl text-red'>03</p>
-							<p className='font-playFair font-semibold text-3xl mt-3 text-slate-300'>
+							<span className='font-playFair font-semibold text-5xl text-red'>03</span>
+							<span className='font-playFair font-semibold text-3xl ml-3 text-slate-300'>
 								Customer Care at Aya ISP
-							</p>
+							</span>
 						</div>
 					</div>
-					<p className='mt-5'>
-						<li>Managing a team of customer service.</li>
-						<li>Identifying training requirements and any skill gaps.</li>
-						<li>Tracking and developing the work of the department.</li>
-						<li>Identifying, reporting, and recommending support solution paths for
+					<ul className="list-outside list-disc mt-4">
+						<li className='pb-4'>Managing a team of customer service.</li>
+						<li className='pb-4'>Identifying training requirements and any skill gaps.</li>
+						<li className='pb-4'>Tracking and developing the work of the department.</li>
+						<li className='pb-4'>Identifying, reporting, and recommending support solution paths for
 							ongoing issues.
 						</li>
-						<li>Acknowledging and resolving customer complaints.</li>
-						<li>training a team of junior customer service representatives.</li>
-					</p>
+						<li className='pb-4'>Acknowledging and resolving customer complaints.</li>
+						<li className='pb-4'>training a team of junior customer service representatives.</li>
+					</ul>
 				</motion.div>
 			</div>
 		</section>
