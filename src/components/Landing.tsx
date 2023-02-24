@@ -33,7 +33,7 @@ export const Landing = ({ setSelectedPage }: Props) => {
 				) : (
 					<img
 						src='../assets/profile-image.png'
-						className='hover:filter hover:saturate-200 transition duration-500 z-10 w-full
+						className='hover:filter hover:saturate-50 transition duration-500 z-10 w-full
 					max-w-[400px] md:max-w-[600px]'
 						alt='Profile'
 					/>
