@@ -1164,6 +1164,10 @@ body,
     gap: 4rem;
   }
 
+  .md\:pb-0{
+    padding-bottom: 0px;
+  }
+
   .md\:text-start{
     text-align: start;
   }

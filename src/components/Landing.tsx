@@ -1,19 +1,15 @@
 import { useMediaQuery } from '@/hooks';
-import { SelectedPage } from '@/shared';
+import { PageProps, SelectedPage } from '@/shared';
 import { motion } from 'framer-motion';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { SocialMediaIcons } from './SocialMediaIcons';
 
-type Props = {
-	setSelectedPage: (value: SelectedPage) => void;
-}
-
-export const Landing = ({ setSelectedPage }: Props) => {
+export const Landing = ({ setSelectedPage }: PageProps) => {
 	const isAboveMediumScreens = useMediaQuery({ query: '(min-width: 1060px)' });
 	return (
 		<section
 			id={SelectedPage.Home}
-			className='md:flex md:justify-between md:items-center md:h-full gap-16 py-16'
+			className='w-5/6 mx-auto md:flex md:justify-between md:items-center md:h-full gap-16 py-16'
 		>
 			{/* Image section */}
 			<div className='md:order-2 flex justify-center basis-3/5 z-10 mt-16 md:mt-32'>
@@ -44,6 +40,7 @@ export const Landing = ({ setSelectedPage }: Props) => {
 			<div className='z-30 basis-3/5 mt-12 md:mt-32'>
 				{/* Heading */}
 				<motion.div
+					onViewportEnter={() => setSelectedPage(SelectedPage.Home)}
 					initial='hidden'
 					whileInView='visible'
 					viewport={{ once: true, amount: 0.5 }}

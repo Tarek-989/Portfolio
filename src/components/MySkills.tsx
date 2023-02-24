@@ -1,14 +1,15 @@
-import { LineGradient, SelectedPage } from '@/shared';
+import { LineGradient, PageProps, SelectedPage } from '@/shared';
 import { useMediaQuery } from '@/hooks';
 import { motion } from 'framer-motion';
 
-export const MySkills = () => {
+export const MySkills = ({ setSelectedPage }: PageProps) => {
 	const isAboveMediumScreens = useMediaQuery({ query: '(min-width: 1060px)' });
 
 	return (
-		<section id={SelectedPage.Skills} className='pt-10 pb-24'>
+		<section id={SelectedPage.Skills} className='w-5/6 mx-auto pt-10 pb-24'>
 			<div className='md:flex md:justify-between md:gap-16 mt-32'>
 				<motion.div
+					onViewportEnter={() => setSelectedPage(SelectedPage.Skills)}
 					className='md:w-1/3'
 					initial='hidden'
 					whileInView='visible'

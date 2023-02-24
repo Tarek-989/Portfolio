@@ -6,3 +6,7 @@ export enum SelectedPage {
 }
 
 export type SelectedPageKeys = keyof typeof SelectedPage;
+
+export type PageProps = {
+	setSelectedPage: (value: SelectedPage) => void;
+}

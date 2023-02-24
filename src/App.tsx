@@ -23,7 +23,7 @@ function App() {
 		window.addEventListener('scroll', handleScroll);
 		return () => window.removeEventListener('scroll', handleScroll);
 	}, []);
- 
+
 	return (
 		<div className='app bg-deep-blue'>
 			<NavBar
@@ -31,19 +31,15 @@ function App() {
 				selectedPage={selectedPage}
 				setSelectedPage={setSelectedPage}
 			/>
-			<div className='w-5/6 mx-auto md:h-full'>
-				{isAboveMediaScreens && (
-					<DotGroup
-						selectedPage={selectedPage}
-						setSelectedPage={setSelectedPage}
-					/>
-				)}
-				<Landing setSelectedPage={setSelectedPage} />
-			</div>
+			{isAboveMediaScreens && (
+				<DotGroup
+					selectedPage={selectedPage}
+					setSelectedPage={setSelectedPage}
+				/>
+			)}
+			<Landing setSelectedPage={setSelectedPage} />
 			<LineGradient />
-			<div className='w-5/6 mx-auto md:h-full'>
-				<MySkills />
-			</div>
+			<MySkills setSelectedPage={setSelectedPage} />
 		</div>
 	)
 }
