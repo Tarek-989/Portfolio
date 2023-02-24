@@ -1,8 +1,8 @@
-import { SelectedPage } from '@/shared';
+import { SelectedPage, SelectedPageKeys } from '@/shared';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 type Props = {
-	page: string;
+	page: SelectedPageKeys;
 	selectedPage: SelectedPage;
 	setSelectedPage: (value: SelectedPage) => void;
 }

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { DotGroup, Landing, MySkills, NavBar } from '@/components';
-import { useMediaQuery } from './hooks';
+import { useMediaQuery } from '@/hooks';
 import { LineGradient, SelectedPage } from '@/shared';
 
 
@@ -23,6 +23,7 @@ function App() {
 		window.addEventListener('scroll', handleScroll);
 		return () => window.removeEventListener('scroll', handleScroll);
 	}, []);
+ 
 	return (
 		<div className='app bg-deep-blue'>
 			<NavBar
