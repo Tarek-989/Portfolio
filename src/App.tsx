@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { DotGroup, Landing, MySkills, NavBar } from '@/components';
+import { DotGroup, Landing, MySkills, NavBar, Projects } from '@/components';
 import { useMediaQuery } from '@/hooks';
 import { LineGradient, SelectedPage } from '@/shared';
 
@@ -40,6 +40,8 @@ function App() {
 			<Landing setSelectedPage={setSelectedPage} />
 			<LineGradient />
 			<MySkills setSelectedPage={setSelectedPage} />
+			<LineGradient />
+			<Projects setSelectedPage={setSelectedPage} />
 		</div>
 	)
 }
