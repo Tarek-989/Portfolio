@@ -63,7 +63,12 @@ export const Projects = ({ setSelectedPage }: PageProps) => {
 					 		Material-UI, and nivo charts to provide an easy-to-use interface for managing business operations.
 					 		With customizable charts and graphs, and comprehensive reporting tools, monitor sales, inventory,
 					   		and customer relationships with ease.' />
-					<Project title='Project 2' subTitle='' />
+					<Project
+						title='My Portfolio'
+						subTitle='A responsive landing page built with React, Tailwindcss
+						 and designed with a mobile-first approach, providing an optimized user 
+						 experience on all devices, with a modern and clean design, engaging copy, 
+						 clear calls-to-action, and high-quality images that showcase the projects that I create.' />
 
 					{/* Row 2 */}
 					<Project title='Project 3' subTitle='' />
