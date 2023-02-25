@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Contact, DotGroup, Landing, MySkills, NavBar, Projects } from '@/components';
+import { Contact, DotGroup, Footer, Landing, MySkills, NavBar, Projects } from '@/components';
 import { useMediaQuery } from '@/hooks';
 import { LineGradient, SelectedPage } from '@/shared';
 
@@ -44,6 +44,7 @@ function App() {
 			<Projects setSelectedPage={setSelectedPage} />
 			<LineGradient />
 			<Contact setSelectedPage={setSelectedPage} />
+			<Footer />
 		</div>
 	)
 }

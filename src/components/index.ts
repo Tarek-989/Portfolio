@@ -7,3 +7,4 @@ export * from './MySkills';
 export * from './Projects';
 export * from './Project';
 export * from './Contact';
+export * from './Footer';
