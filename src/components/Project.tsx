@@ -11,7 +11,7 @@ export const Project = ({ title, subTitle }: Props) => {
 	const projectTitle = title.split(' ').join('-').toLowerCase();
 	const projectVariant = {
 		hidden: { opacity: 0, scale: 0.8 },
-		visible: { opacity: 1, scale: 0.8 },
+		visible: { opacity: 1, scale: 1 },
 	}
 	return (
 		<motion.div

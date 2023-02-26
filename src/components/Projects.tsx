@@ -53,7 +53,7 @@ export const Projects = ({ setSelectedPage }: PageProps) => {
 					{/* Row 1 */}
 					<div
 						className='flex justify-center text-center items-center p-10 bg-red
-							w-[320px] h-[320px] text-2xl font-playFair font-semibold mx-auto'
+							w-[400px] h-[400px] text-2xl font-playFair font-semibold mx-auto'
 					>
 						Beautiful User Interface
 					</div>
@@ -86,7 +86,7 @@ export const Projects = ({ setSelectedPage }: PageProps) => {
 						 nutrition plans, and coaching services.' />
 					<div
 						className='flex justify-center text-center items-center p-10 bg-blue
-							w-[320px] h-[320px] text-2xl font-playFair font-semibold mx-auto'
+							w-[400px] h-[400px] text-2xl font-playFair font-semibold mx-auto'
 					>
 						Smooth User Experience
 					</div>
