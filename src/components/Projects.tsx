@@ -70,7 +70,7 @@ export const Projects = ({ setSelectedPage }: PageProps) => {
 						subTitle='A simple finance dashboard website built using React, Material-UI, Machine learning,
 						and Redux Toolkit to provide customizable charts and grids to help you monitor your
 						financial metrics, such as revenue, expenses, and profits.'
-						URL='https://finance-dashboard.pages.dev/'
+						URL='https://finance-dashboard-frontend.onrender.com/'
 					/>
 
 					{/* Row 2 */}
