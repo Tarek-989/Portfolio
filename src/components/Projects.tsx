@@ -63,12 +63,14 @@ export const Projects = ({ setSelectedPage }: PageProps) => {
 					 		Material-UI, and nivo charts to provide an easy-to-use interface for managing business operations.
 					 		With customizable charts and graphs, and comprehensive reporting tools, monitor sales, inventory,
 					   		and customer relationships with ease.'
+						URL='https://admin-dashboard-a9d.pages.dev/'
 					/>
 					<Project
 						title='Finance Dashboard'
 						subTitle='A simple finance dashboard website built using React, Material-UI, Machine learning,
 						and Redux Toolkit to provide customizable charts and grids to help you monitor your
 						financial metrics, such as revenue, expenses, and profits.'
+						URL='https://finance-dashboard.pages.dev/'
 					/>
 
 					{/* Row 2 */}
@@ -78,19 +80,22 @@ export const Projects = ({ setSelectedPage }: PageProps) => {
 						and designed with a mobile-first approach, providing an optimized user 
 						experience on all devices, with a modern and clean design, engaging copy, 
 						clear calls-to-action, and high-quality images that showcase the projects that I create.'
+						URL='https://portfolio-55b.pages.dev/'
 					/>
-					<Project title='Project 4' subTitle='' />
-					<Project title='Project 5' subTitle='' />
+					<Project title='Project 4' subTitle='Coming Soon ...' URL='' />
+					<Project title='Project 5' subTitle='Coming Soon ...' URL='' />
 
 					{/* Row 3 */}
-					<Project title='Project 6' subTitle='' />
+					<Project title='Project 6' subTitle='Coming Soon ...' URL='' />
 					<Project
 						title='Landing page for fitness website'
 						subTitle='A responsive landing page built with React, Tailwindcss
 						 and designed with a mobile-first approach, providing an optimized user 
 						 experience on all devices, with a modern and clean design, engaging copy, 
 						 clear calls-to-action, and high-quality images that showcase fitness programs, 
-						 nutrition plans, and coaching services.' />
+						 nutrition plans, and coaching services.'
+						URL='https://fitness-site-8ia.pages.dev/'
+					/>
 					<div
 						className='flex justify-center text-center items-center p-10 bg-blue
 						max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'

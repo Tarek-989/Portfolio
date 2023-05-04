@@ -3,9 +3,10 @@ import { motion } from 'framer-motion';
 type Props = {
 	title: string;
 	subTitle: string;
+	URL: string;
 }
 
-export const Project = ({ title, subTitle }: Props) => {
+export const Project = ({ title, subTitle, URL }: Props) => {
 	const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
 	bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
 	const projectTitle = title.split(' ').join('-').toLowerCase();
@@ -18,11 +19,13 @@ export const Project = ({ title, subTitle }: Props) => {
 			className='relative'
 			variants={projectVariant}
 		>
+			<a href={URL} target="_blank" rel="noopener noreferrer">
 			<div className={overlayStyles}>
 				<p className='text-2xl font-playFair'>{title}</p>
 				<p className='mt-7'>{subTitle}</p>
 			</div>
 			<img className='w-[400px] h-[400px]' src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+			</a>
 		</motion.div>
 	)
 }
