@@ -82,7 +82,14 @@ export const Projects = ({ setSelectedPage }: PageProps) => {
 						clear calls-to-action, and high-quality images that showcase the projects that I create.'
 						URL='https://portfolio-55b.pages.dev/'
 					/>
-					<Project title='Project 4' subTitle='Coming Soon ...' URL='' />
+					<Project
+						title='Promptopia'
+						subTitle='Promptopia is an open-source AI prompting tool for modern world to discover, 
+						create and share creative prompts built using Next.js 13, Tailwindcss 
+						and designed with a mobile-first approach, providing an optimized user 
+						experience on all devices.'
+						URL='https://promptopia-wheat-chi.vercel.app'
+					/>
 					<Project title='Project 5' subTitle='Coming Soon ...' URL='' />
 
 					{/* Row 3 */}
