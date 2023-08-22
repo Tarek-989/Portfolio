@@ -75,12 +75,11 @@ export const Projects = ({ setSelectedPage }: PageProps) => {
 
 					{/* Row 2 */}
 					<Project
-						title='My Portfolio'
-						subTitle='A responsive landing page built with React, Tailwindcss 
-						and designed with a mobile-first approach, providing an optimized user 
-						experience on all devices, with a modern and clean design, engaging copy, 
-						clear calls-to-action, and high-quality images that showcase the projects that I create.'
-						URL='https://portfolio-55b.pages.dev/'
+						title='Car Hub'
+						subTitle='A simple car show to Find, book, and rent a car
+						built using Next.js 13, TypeScript, and Tailwindcss, and designed 
+						with a mobile-first approach, providing an optimized userexperience on all devices.'
+						URL='https://car-showcase-three-gamma.vercel.app/'
 					/>
 					<Project
 						title='Promptopia'
@@ -90,12 +89,8 @@ export const Projects = ({ setSelectedPage }: PageProps) => {
 						experience on all devices.'
 						URL='https://promptopia-wheat-chi.vercel.app'
 					/>
-					<Project title='Project 5' subTitle='Coming Soon ...' URL='' />
-
-					{/* Row 3 */}
-					<Project title='Project 6' subTitle='Coming Soon ...' URL='' />
 					<Project
-						title='Landing page for fitness website'
+						title='Evo GYM'
 						subTitle='A responsive landing page built with React, Tailwindcss
 						 and designed with a mobile-first approach, providing an optimized user 
 						 experience on all devices, with a modern and clean design, engaging copy, 
@@ -103,6 +98,17 @@ export const Projects = ({ setSelectedPage }: PageProps) => {
 						 nutrition plans, and coaching services.'
 						URL='https://fitness-site-8ia.pages.dev/'
 					/>
+
+					{/* Row 3 */}
+					<Project
+						title='My Portfolio'
+						subTitle='A responsive landing page built with React, Tailwindcss 
+						and designed with a mobile-first approach, providing an optimized user 
+						experience on all devices, with a modern and clean design, engaging copy, 
+						clear calls-to-action, and high-quality images that showcase the projects that I create.'
+						URL='https://portfolio-55b.pages.dev/'
+					/>
+					<Project title='Project 6' subTitle='Coming Soon ...' URL='' />
 					<div
 						className='flex justify-center text-center items-center p-10 bg-blue
 						max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold'
